@@ -1,0 +1,5 @@
+.custom-bullet-list {
+  list-style-type: disc; /* Ensure bullets are displayed */
+  padding-left: 20px; /* Add padding to align bullets */
+  margin: 0; /* Reset margin if needed */
+}
