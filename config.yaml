@@ -1,4 +1,38 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+baseURL: ""
+title: nveshaan
+paginate: 5
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Hey, I'm Eshaan 👋
+    Content: "An undergrad at **IISER Thiruvananthapuram**, studying Mathematics, Physics and Data-Science. This website is showcase of my work."
+    BP:
+      - point: 🌱 I’m currently learning Artificial Intelligence
+      - point: 🧑‍🔬 I love math, robotics, comp-sci and economics
+      - point: 👯 I’m looking to collaborate with other coders
+      - point: "🥅 2024 Goals: Build ML projects"
+      - point: "⚡ Fun fact: I love nature and anime"
+
+  socialIcons: # optional
+    - name: "email"
+      url: "nveshaan@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/nveshaan"
+    - name: "github"
+      url: "https://github.com/nveshaan"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
